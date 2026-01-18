@@ -1,11 +1,11 @@
-categories: ["cs.RO"]
+categories: ["cs.CV"]
 keywords:
   # - "open vocabulary"
   # - "open-vocabulary"
   # - "open vocabulary segmentation"
   # - "open-vocabulary segmentation"
-  # - "vision language model"
-  # - "robot learning"
+  - "vision language model"
+  - "robot learning"
   # - "training free"
 
 # exclude_keywords: # 选择排除的关键词
