@@ -1,12 +1,12 @@
-categories: ["cs.CV", "cs.LG", "cs.AI"]
+categories: ["cs.CV", "cs.LG", "cs.AI", "cs.RO"]
 keywords:
-  - "open vocabulary"
-  - "open-vocabulary"
-  - "open vocabulary segmentation"
-  - "open-vocabulary segmentation"
+  # - "open vocabulary"
+  # - "open-vocabulary"
+  # - "open vocabulary segmentation"
+  # - "open-vocabulary segmentation"
   - "vision language model"
-  - "training-free"
-  - "training free"
+  - "robot learning"
+  # - "training free"
 
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
@@ -79,7 +79,7 @@ site:
   accent: "#2563eb"     # 主题色（可自定义）
 
 freshness:
-  since_days: 3           # 只看最近 N 天内新提交/更新（1=近24h）
+  since_days: 1           # 只看最近 N 天内新提交/更新（1=近24h）
   unique_only: true       # 开启跨天去重（见过的 arXiv ID 不再重复发）
   state_path: ".state/seen.json"  # 去重状态文件（会随 docs 一起提交保存）
   fallback_when_empty: false # 当今天无新增时，是否回退展示最近的Top若干（建议false）
