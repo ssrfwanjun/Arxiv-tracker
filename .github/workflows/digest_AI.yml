@@ -145,7 +145,7 @@ jobs:
 
           echo "event=$EVENT attempt=$ATTEMPT manual.send_email=$SEND EXTRA=$EXTRA"
           python -m arxiv_tracker.cli run \
-            --config config.yaml \
+            --config config_AI.yaml \
             --site-dir docs \
             --site-url "${{ steps.site.outputs.url }}" \
             $EXTRA \
