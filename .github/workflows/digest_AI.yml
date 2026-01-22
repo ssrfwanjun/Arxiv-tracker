@@ -75,7 +75,7 @@ jobs:
       # 一次性检查邮箱变量注入是否OK
       - name: Show email env (masked)
         env:
-          EMAIL_TO: ${{ secrets.EMAIL_TO || vars.EMAIL_TO}}, ${{vars.MAIL_TO_TEST}}
+          EMAIL_TO: ${{ secrets.EMAIL_TO || vars.EMAIL_TO}}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER || vars.EMAIL_SENDER }}
           SMTP_USER: ${{ secrets.SMTP_USER || vars.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
